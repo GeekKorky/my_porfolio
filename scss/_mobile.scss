@@ -80,4 +80,15 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  .boxes {
+    margin-top: 1rem;
+    font-size: 0.3rem;
+    div {
+      font-size: 1.3rem;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 3rem;
+      @include easeOut;
+    }
+  }
 }
